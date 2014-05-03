@@ -8,7 +8,7 @@ var util = {
 
 $(function() {
   /* peer setup */
-  var peer = new Peer('senderID',{key: 'uoux7azk7sxg8pvi'});
+  var peer = new Peer('senderID',{key: '7kov9dhv87fa8aor'});
   /* jquery setup */
   var $dropArea = $('#dropable');
   /* some param */
@@ -30,7 +30,7 @@ $(function() {
           fs = file.size;
           fv = e.target.result;
         });
-        reader.readAsText(file);
+        reader.readAsDataURL(file);
         conn.on('open',function(){
           conn.send(fv);
         });
