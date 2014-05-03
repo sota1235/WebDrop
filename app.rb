@@ -2,7 +2,7 @@ require 'sinatra'
 require 'sinatra/base'
 require 'haml'
 
-require 'models/init'
+require_relative 'models/init'
 
 class Server < Sinatra::Base
   get '/' do
