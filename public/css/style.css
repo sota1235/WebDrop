@@ -1,0 +1,18 @@
+body {
+  font-family: "ヒラギノ丸ゴ ProN W4","Hiragino Maru Gothic ProN";
+  text-align: center;
+  margin: 10px;
+}
+
+div {
+  margin: 0 auto;
+}
+
+#dropable {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  background-color: #39DC3C
+}
